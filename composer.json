@@ -1,0 +1,16 @@
+{
+    "name": "bendavies/psalm-stub-issue",
+    "autoload": {
+        "psr-4": {
+            "Bendavies\\PsalmStubIssue\\": "src/"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    }
+}
